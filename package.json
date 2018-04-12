@@ -1,0 +1,25 @@
+{
+  "name": "vue-ctk-tooltip",
+  "version": "0.0.1",
+  "description": "Just Another Dropdown for VueJs",
+  "main": "CtkTooltip.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronotruck/vue-ctk-tooltip.git"
+  },
+  "keywords": [
+    "VueJs",
+    "tooltip",
+    "simple",
+    "ctk",
+    "chronotruck"
+  ],
+  "author": "loic.mazuel@chronotruck.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chronotruck/vue-ctk-tooltip/issues"
+  },
+  "homepage": "https://github.com/chronotruck/vue-ctk-tooltip#readme"
+}
