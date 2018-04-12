@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import CtkTooltip from '@/directives/CtkTooltip'
+import CtkTooltip from 'vue-ctk-tooltip'
 export default {
   name: 'HelloWorld',
   directives: {
