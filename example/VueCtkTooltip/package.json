@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "CtkTooltip directive example",
   "author": "Loïc Mazuel <loic.mazuel@chronotruck.com>",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
