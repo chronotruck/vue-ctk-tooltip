@@ -16,14 +16,18 @@ npm install --save vue-ctk-tooltip
 
 ## Usage
 
+
 #### Globally
   main.js
 ```js
 import Vue from 'vue'
 import CtkTooltip from 'vue-ctk-tooltip'
+import 'vue-ctk-tooltip/ctk-tooltip.css'
 
 Vue.directive('ctk-tooltip', CtkTooltip)
 ```
+
+  Note : Always import .css in main.js 
 
 #### In single component
 YourComponent.vue 
