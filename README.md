@@ -1,7 +1,7 @@
 # vue-ctk-tooltip
 
 
-Just a simple directive for tooltip
+Just a directive for a simple tooltip
 
 ## Installation
 
@@ -35,5 +35,5 @@ export default {
 
 ## Example
 ---------------
-I have created an [example](https://github.com/mimani/vue-just-another-dropdown/tree/master/example) vue webapp (documentation [here](https://github.com/mimani/vue-just-another-dropdown/blob/master/example/just-another-vue-app/README.md)), demonstrating this dropdown via simple vue webapp, checkout `example` directory in this repo.
+An [example](https://github.com/chronotruck/vue-ctk-tooltip/tree/master/example) is available | (Documentation [here](https://github.com/mimani/vue-just-another-dropdown/blob/master/example/just-another-vue-app/README.md))
 
