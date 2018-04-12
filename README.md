@@ -4,6 +4,9 @@
 
 Just a directive for a simple tooltip
 
+## Demo
+An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-ctk-tooltip/blob/master/example/VueCtkTooltip/dist/index.html) is available
+
 ## Installation
 
 ### npm
@@ -37,7 +40,4 @@ export default {
 ```html
 <button v-ctk-tooltip="'Your tooltip message'">Hover Me</button>
 ```
-
-## Example
-An [example](https://github.com/chronotruck/vue-ctk-tooltip/tree/master/example) is available | (Documentation [here](https://github.com/mimani/vue-just-another-dropdown/blob/master/example/just-another-vue-app/README.md))
 
