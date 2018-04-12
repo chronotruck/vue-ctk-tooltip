@@ -1,5 +1,6 @@
 # vue-ctk-tooltip
 
+![Ctk Tooltip Example](./example/VueCtkTooltip/src/assets/ctk-tooltip-screenshot.png)
 
 Just a directive for a simple tooltip
 
