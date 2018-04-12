@@ -24,7 +24,7 @@ Vue.directive('ctk-tooltip', CtkTooltip)
 
 #### In single component
 YourComponent.vue 
-```vue
+```js
 import CtkTooltip from 'vue-ctk-tooltip'
 export default {
   name: 'YourComponent',
