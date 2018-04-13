@@ -1,0 +1,5 @@
+/example
+./example
+./example/*
+node_modules/
+.idea
