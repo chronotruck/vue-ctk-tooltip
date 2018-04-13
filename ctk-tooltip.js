@@ -4,8 +4,8 @@ export default {
     Vue.directive('ctk-tooltip', {
       bind: function (el, binding) {
         el.addEventListener('mouseenter', function () {
-          let $tooltip = document.createElement('div')
-          const $tooltipDimension = el.getBoundingClientRect()
+          var $tooltip = document.createElement('div')
+          var $tooltipDimension = el.getBoundingClientRect()
           $tooltip.setAttribute('class', 'ctk-tooltip')
           $tooltip.setAttribute('id', 'CtkTooltip')
           $tooltip.innerHTML = binding.value
@@ -14,7 +14,7 @@ export default {
           document.body.appendChild($tooltip)
         })
         el.addEventListener('mouseleave', function () {
-          const elemToRemove = document.getElementById('CtkTooltip')
+          var elemToRemove = document.getElementById('CtkTooltip')
           elemToRemove.parentNode.removeChild(elemToRemove)
         })
       }

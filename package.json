@@ -1,6 +1,6 @@
 {
   "name": "vue-ctk-tooltip",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A VueJs directive for a simple tooltip",
   "main": "ctk-tooltip.js",
   "scripts": {},
