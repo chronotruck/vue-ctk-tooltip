@@ -1,8 +1,8 @@
 export default {
   name: 'ctk-tooltip',
-  install (Vue, installOptions) {
+  install: function (Vue, installOptions) {
     Vue.directive('ctk-tooltip', {
-      bind (el, binding) {
+      bind: function (el, binding) {
         el.addEventListener('mouseenter', function () {
           let $tooltip = document.createElement('div')
           const $tooltipDimension = el.getBoundingClientRect()
@@ -20,4 +20,4 @@ export default {
       }
     })
   }
-}
+};
