@@ -4,6 +4,8 @@
 
 Just a directive for a simple tooltip
 
+Support : Chrome, FireFox, IE9+
+
 ## Demo
 An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-ctk-tooltip/blob/master/example/VueCtkTooltip/dist/index.html) is available
 
@@ -11,35 +13,19 @@ An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-c
 
 ### npm
 ``` sh
-npm install --save vue-ctk-tooltip
+npm install vue-ctk-tooltip --save
 ```
 
 ## Usage
 
-
-#### Globally
   main.js
 ```js
 import Vue from 'vue'
 import CtkTooltip from 'vue-ctk-tooltip'
 import 'vue-ctk-tooltip/ctk-tooltip.css'
+Vue.use(CtkTooltip)
+``` 
 
-Vue.directive('ctk-tooltip', CtkTooltip)
-```
-
-  Note : Always import .css in main.js 
-
-#### In single component
-YourComponent.vue 
-```js
-import CtkTooltip from 'vue-ctk-tooltip'
-export default {
-  name: 'YourComponent',
-  directives: {
-    CtkTooltip
-  }
-}
-```
 
 ```html
 <button v-ctk-tooltip="'Your tooltip message'">Hover Me</button>
