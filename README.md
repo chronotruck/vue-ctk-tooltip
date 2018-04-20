@@ -7,7 +7,7 @@ Just a directive for a simple tooltip
 Support : Chrome, FireFox, IE9+
 
 ## Demo
-An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-ctk-tooltip/blob/master/example/VueCtkTooltip/dist/index.html) is available
+An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-ctk-tooltip/blob/:branch/example/VueCtkTooltip/dist/index.html) is available
 
 ## Installation
 
