@@ -13,9 +13,12 @@ export default {
           $tooltip.style.top = $tooltipDimension.top - 30 + 'px'
           document.body.appendChild($tooltip)
         })
+
         el.addEventListener('mouseleave', function () {
           var elemToRemove = document.getElementById('CtkTooltip')
-          elemToRemove.parentNode.removeChild(elemToRemove)
+          if (elemToRemove && elemToRemove.parentNode) {
+            elemToRemove.parentNode.removeChild(elemToRemove)
+          }
         })
       }
     })
